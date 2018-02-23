@@ -22,3 +22,9 @@
 ## 3. truncate-strings
 ### Truncate a string to specific length
     truncateStr($str,$length)
+    
+    
+## 4. get-user-ip
+### Get current user IP
+    getUserIp()
+   
