@@ -8,7 +8,7 @@
     `generateAlphaNumericTokens()`
 
 
-##2. encrypt-decrypt-strings
+## 2. encrypt-decrypt-strings
 ### Generate base64 encryption key
     `generateKey()`
 
@@ -19,6 +19,6 @@
     `decryptStr()`
 
 
-##3. truncate-strings
+## 3. truncate-strings
 ### Truncate a string to specific length
     `truncateStr()`
