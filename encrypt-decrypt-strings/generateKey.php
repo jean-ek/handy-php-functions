@@ -7,6 +7,6 @@
  * @version 1.0
  *
  */
-function generateKey() {
-	return base64_encode( openssl_random_pseudo_bytes( 64 ) );
+function generateKey($length) {
+	return base64_encode( openssl_random_pseudo_bytes( $length ) );
 }

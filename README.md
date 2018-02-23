@@ -5,20 +5,20 @@
 
 ## 1. generate-alpha-numeric-tokens
 ### Generate Alpha numeric tokens in specific length
-    `generateAlphaNumericTokens()`
+    generateAlphaNumericTokens($length)
 
 
 ## 2. encrypt-decrypt-strings
 ### Generate base64 encryption key
-    `generateKey()`
+    generateKey($length)
 
 ### Encrypt a string using specific key    
-    `encryptStr()`
+    encryptStr($data, $key)
 
 ### Decrypt a string using specific key    
-    `decryptStr()`
+    decryptStr($data, $key)
 
 
 ## 3. truncate-strings
 ### Truncate a string to specific length
-    `truncateStr()`
+    truncateStr($str,$length)
